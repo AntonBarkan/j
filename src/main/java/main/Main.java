@@ -44,9 +44,6 @@ public class Main implements ActionListener {
             addIconAndShowMessage(tray, greyIcon, "!", null, TrayIcon.MessageType.INFO);
         } catch (AWTException e) {
             e.printStackTrace();
-            
-            
-            
         }
         Thread t = new Thread(() -> {
             try {
